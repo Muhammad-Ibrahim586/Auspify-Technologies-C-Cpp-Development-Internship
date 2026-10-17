@@ -134,47 +134,85 @@ A console-based arithmetic expression evaluator that processes mathematical expr
 
 ```text
 Auspify_Technologies_C_C++_Development_Internship/
+│   .gitignore
+│   README.md
 │
-├── Task_3_Student_Management/
-│   ├── data/
-│   │   └── students.txt
-│   ├── screenshots/
-│   └── src/
-│       ├── main.cpp
-│       ├── Student.h
-│       └── Student.cpp
+├───docs
+│       Internship Presentation Slides.pptx
+│       Internship Report.pdf
 │
-├── Task_4_Library_Management/
-│   ├── data/
-│   │   └── books.txt
-│   ├── screenshots/
-│   └── src/
-│       ├── main.cpp
-│       ├── Book.h
-│       ├── Book.cpp
-│       ├── Library.h
-│       └── Library.cpp
+├───Task_3_Student_Management
+│   ├───data
+│   │       students.txt
+│   │
+│   ├───screenshots
+│   │       Add Student.PNG
+│   │       Delete Student.PNG
+│   │       Display All Students.PNG
+│   │       Main Menu.PNG
+│   │       Search Student.PNG
+│   │       Update Student.PNG
+│   │
+│   └───src
+│           main.cpp
+│           Student.cpp
+│           Student.h
+│           StudentManagement.exe
 │
-├── Task_5_Banking_Management/
-│   ├── data/
-│   │   └── accounts.txt
-│   ├── screenshots/
-│   └── src/
-│       ├── main.cpp
-│       ├── Account.h
-│       ├── Account.cpp
-│       ├── Bank.h
-│       └── Bank.cpp
+├───Task_4_Library_Management
+│   ├───data
+│   │       books.txt
+│   │
+│   ├───screenshots
+│   │       Add Book.PNG
+│   │       Display all Books.PNG
+│   │       Display Available Books.PNG
+│   │       Issue Book.PNG
+│   │       Main Menu.PNG
+│   │       Remove Book.PNG
+│   │       Return Book.PNG
+│   │       Search Book.PNG
+│   │
+│   └───src
+│           Book.cpp
+│           Book.h
+│           Library.cpp
+│           Library.h
+│           LibraryManagement.exe
+│           main.cpp
 │
-├── Task_6_Expression_Evaluator/
-│   ├── screenshots/
-│   └── src/
-│       ├── main.cpp
-│       ├── ExpressionEvaluator.h
-│       └── ExpressionEvaluator.cpp
+├───Task_5_Banking_Management
+│   ├───data
+│   │       accounts.txt
+│   │
+│   ├───screenshots
+│   │       Create Account.PNG
+│   │       Delete Account.PNG
+│   │       Deposit Money.PNG
+│   │       Display Account Details.PNG
+│   │       Display All Accounts.PNG
+│   │       Main Menu.PNG
+│   │       Transaction History.PNG
+│   │       Withdraw Money.PNG
+│   │
+│   └───src
+│           Account.cpp
+│           Account.h
+│           Bank.cpp
+│           Bank.h
+│           BankingManagement.exe
+│           main.cpp
 │
-├── .gitignore
-└── README.md
+└───Task_6_Expression_Evaluator
+    ├───screenshots
+    │       Evaluation.PNG
+    │       Main Menu.PNG
+    │
+    └───src
+            ExpressionEvaluator.cpp
+            ExpressionEvaluator.exe
+            ExpressionEvaluator.h
+            main.cpp
 ```
 
 ## Compilation and Execution
