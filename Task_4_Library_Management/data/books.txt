@@ -1,0 +1,5 @@
+101|Introduction to Algorithms|Thomas H. Cormen|Programming|0
+102|Clean Code|Robert C. Martin|Programming|0
+103|The C++ Programming Language|Bjarne Stroustrup|Programming|0
+104|Database System Concepts|Abraham Silberschatz|Programming|0
+106|Artificial Intelligence: A Modern Approach|Stuart Russell and Peter Norvig|Programming|0

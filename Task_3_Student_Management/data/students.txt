@@ -1,0 +1,5 @@
+1001|Ali Khan|22|Computer Engineering|3.75
+1003|Usman Tariq|23|Electrical Engineering|3.25
+1004|Amna Waheed|22|Computer Engineering|3.90
+1005|Hamza Iqbal|22|Information Technology|3.40
+1006|Haroon Kamran|23|Artificial Intelligence|3.50

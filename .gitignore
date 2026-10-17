@@ -1,0 +1,24 @@
+# Visual Studio workspace and cache
+.vs/
+.vscode/
+
+# Compiled executables and build output
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.dll
+*.lib
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+
+# Temporary and operating-system files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

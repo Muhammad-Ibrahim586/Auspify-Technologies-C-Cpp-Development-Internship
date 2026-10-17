@@ -1,0 +1,5 @@
+10001|Ali Khan|Current|4500.00| Deposit,20000.00,20000.00| Deposit,500.00,20500.00| Withdrawal,250.00,20250.00| Withdrawal,500.00,4500.00
+10002|Sara Ahmed|Savings|12500.50| Deposit,20000.00,20000.00| Deposit,500.00,20500.00| Withdrawal,250.00,20250.00
+10003|Usman Tariq|Savings|750.00| Deposit,20000.00,20000.00| Deposit,500.00,20500.00| Withdrawal,250.00,20250.00
+10004|Ayesha Malik|Current|20000.00| Deposit,20000.00,20000.00| Deposit,500.00,20500.00| Withdrawal,250.00,20250.00
+10006|Amna Waheed|Current|120000.00| Deposit,100000.00,100000.00| Deposit,20000.00,120000.00
