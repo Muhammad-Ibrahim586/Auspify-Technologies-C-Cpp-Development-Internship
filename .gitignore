@@ -1,8 +1,7 @@
-# Visual Studio workspace and cache
-.vs/
-.vscode/
+# ==========================================
+# C++ compiled executables and build artifacts
+# ==========================================
 
-# Compiled executables and build output
 *.exe
 *.obj
 *.o
@@ -10,6 +9,11 @@
 *.ilk
 *.dll
 *.lib
+*.a
+*.so
+*.dylib
+
+# Common build output directories
 Debug/
 Release/
 x64/
@@ -17,8 +21,45 @@ x86/
 build/
 out/
 
-# Temporary and operating-system files
+# ==========================================
+# IDE and editor files
+# ==========================================
+
+.vs/
+.vscode/
+
+# Uncomment the following line if you want to
+# ignore all VS Code workspace settings.
+# .vscode/
+
+# ==========================================
+# Temporary and log files
+# ==========================================
+
 *.tmp
+*.temp
 *.log
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating system files
+# ==========================================
+
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ==========================================
+# Optional local environment files
+# ==========================================
+
+.env
+.env.*
+
+# ==========================================
+# Keep project documentation, source code,
+# screenshots, and sample data under version control.
+# ==========================================

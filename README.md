@@ -1,229 +1,171 @@
 # Auspify Technologies — C/C++ Development Internship
 
-A collection of four C++ console applications developed as part of the **C/C++ Development Internship at Auspify Technologies**. These projects demonstrate practical programming skills, object-oriented design, file handling, input validation, and algorithm implementation.
+A collection of four C++ console applications developed as part of the **C/C++ Development Internship at Auspify Technologies**.
+
+The projects demonstrate practical C++ programming, object-oriented design, modular source-code organization, file handling, input validation, and problem-solving.
 
 ## Projects Overview
 
 | Task | Project | Description |
 |---|---|---|
-| 3 | Student Management System | Manage student records with file persistence. |
-| 4 | Library Management System | Manage books, availability, and issue/return operations. |
-| 5 | Banking Management System | Manage accounts, deposits, withdrawals, and transaction history. |
-| 6 | Expression Evaluator | Evaluate arithmetic expressions with operator precedence and nested brackets. |
+| 3 | Student Management System | Manage student records through a console interface. |
+| 4 | Library Management System | Manage book records, availability, and issue/return operations. |
+| 5 | Banking Management System | Manage accounts and perform basic balance-related transactions. |
+| 6 | Expression Evaluator | Evaluate arithmetic expressions using expression-processing logic. |
 
 ## Technologies Used
 
-- **Language:** C++
-- **Code Editor:** Visual Studio Code (VS Code)
+- **Programming Language:** C++
+- **Editor:** Visual Studio Code (VS Code)
 - **Compiler:** GCC/MinGW (`g++`)
 - **Libraries:** C++ Standard Library
-- **Core Concepts:** Object-Oriented Programming (OOP), file handling, data management, input validation, and error handling
+- **Development Concepts:** Object-oriented programming (OOP), classes, functions, modular design, file handling, input validation, and error handling
+- **Interface:** Console-based user interfaces
 
 ## Project Details
 
 ### Task 3 — Student Management System
 
-A console-based application for maintaining student records.
+A console-based application for managing student records.
 
-**Features**
-- Add new student records
-- Display student information
-- Search for students
-- Update existing records
-- Delete student records
-- Save and load records using file handling
+**Implemented functionality may include:**
+- Adding student records
+- Displaying student information
+- Searching for students
+- Updating existing records
+- Deleting student records
+- Saving and loading records using a text file
 
-**Concepts Demonstrated**
-- Classes and objects
-- Data encapsulation
-- CRUD operations (Create, Read, Update, Delete)
-- File input/output
-- Input validation
-
-**Source Files**
+**Source files**
 - `main.cpp`
 - `Student.h`
 - `Student.cpp`
 
-**Data File:** `data/students.txt`
+**Data file:** `data/students.txt`
+
+**Screenshot directory:** `screenshots/`
 
 ### Task 4 — Library Management System
 
-A console-based application for managing books and their availability in a library.
+A console-based application for managing library books and their availability.
 
-**Features**
-- Add and remove books
-- Search for books
-- Display available books
-- Issue books
-- Return books
-- Persist book records using file handling
+**Implemented functionality may include:**
+- Adding and removing books
+- Searching for books
+- Displaying book records and available books
+- Issuing books
+- Returning books
+- Saving and loading book records
 
-**Concepts Demonstrated**
-- Object-oriented programming
-- Class-based data management
-- Book availability tracking
-- File input/output
-- Input validation
-
-**Source Files**
+**Source files**
 - `main.cpp`
 - `Book.h`
 - `Book.cpp`
 - `Library.h`
 - `Library.cpp`
 
-**Data File:** `data/books.txt`
+**Data file:** `data/books.txt`
+
+**Screenshot directory:** `screenshots/`
 
 ### Task 5 — Banking Management System
 
-A console-based application for managing bank accounts and performing basic transactions.
+A console-based educational application for basic account management and balance-related operations. It is not a production banking system and does not connect to real banking services.
 
-**Features**
-- Create and manage accounts
-- Deposit money
-- Withdraw money
-- Validate transaction amounts and account balances
-- View transaction history
-- Delete accounts
-- Save and load account records using file handling
+**Implemented functionality may include:**
+- Creating and managing accounts
+- Displaying account information
+- Depositing money
+- Withdrawing money
+- Viewing transaction history
+- Deleting accounts
+- Saving and loading account records
 
-**Concepts Demonstrated**
-- Object-oriented programming
-- Encapsulation
-- Transaction processing
-- Balance validation
-- File persistence
-- Error handling
-
-**Source Files**
+**Source files**
 - `main.cpp`
 - `Account.h`
 - `Account.cpp`
 - `Bank.h`
 - `Bank.cpp`
 
-**Data File:** `data/accounts.txt`
+**Data file:** `data/accounts.txt`
+
+**Screenshot directory:** `screenshots/`
 
 ### Task 6 — Expression Evaluator
 
-A console-based arithmetic expression evaluator that processes mathematical expressions and calculates their results.
+A console-based C++ application for evaluating arithmetic expressions.
 
-**Features**
-- Addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`)
+Depending on the final implementation, its functionality may include:
+- Basic arithmetic operations
 - Operator precedence
-- Parentheses (`()`), square brackets (`[]`), and curly braces (`{}`)
-- Nested bracket expressions
-- Decimal number support
+- Parenthesized or grouped expressions
+- Nested expressions
+- Decimal numbers
 - Invalid-expression handling
 - Division-by-zero handling
 
-**Concepts Demonstrated**
-- Arithmetic expression parsing
-- Operator precedence
-- Stack-based or equivalent expression evaluation techniques
-- Input validation
-- Error handling
+The supported operators, bracket types, and error-handling behavior should be confirmed against the final source code.
 
-**Source Files**
+**Source files**
 - `main.cpp`
 - `ExpressionEvaluator.h`
 - `ExpressionEvaluator.cpp`
 
+**Screenshot directory:** `screenshots/`
+
 ## Repository Structure
 
 ```text
-Auspify_Technologies_C_C++_Development_Internship/
-│   .gitignore
-│   README.md
-│
-├───docs
-│       Internship Presentation Slides.pptx
-│       Internship Report.pdf
-│
-├───Task_3_Student_Management
-│   ├───data
-│   │       students.txt
-│   │
-│   ├───screenshots
-│   │       Add Student.PNG
-│   │       Delete Student.PNG
-│   │       Display All Students.PNG
-│   │       Main Menu.PNG
-│   │       Search Student.PNG
-│   │       Update Student.PNG
-│   │
-│   └───src
-│           main.cpp
-│           Student.cpp
-│           Student.h
-│           StudentManagement.exe
-│
-├───Task_4_Library_Management
-│   ├───data
-│   │       books.txt
-│   │
-│   ├───screenshots
-│   │       Add Book.PNG
-│   │       Display all Books.PNG
-│   │       Display Available Books.PNG
-│   │       Issue Book.PNG
-│   │       Main Menu.PNG
-│   │       Remove Book.PNG
-│   │       Return Book.PNG
-│   │       Search Book.PNG
-│   │
-│   └───src
-│           Book.cpp
-│           Book.h
-│           Library.cpp
-│           Library.h
-│           LibraryManagement.exe
-│           main.cpp
-│
-├───Task_5_Banking_Management
-│   ├───data
-│   │       accounts.txt
-│   │
-│   ├───screenshots
-│   │       Create Account.PNG
-│   │       Delete Account.PNG
-│   │       Deposit Money.PNG
-│   │       Display Account Details.PNG
-│   │       Display All Accounts.PNG
-│   │       Main Menu.PNG
-│   │       Transaction History.PNG
-│   │       Withdraw Money.PNG
-│   │
-│   └───src
-│           Account.cpp
-│           Account.h
-│           Bank.cpp
-│           Bank.h
-│           BankingManagement.exe
-│           main.cpp
-│
-└───Task_6_Expression_Evaluator
-    ├───screenshots
-    │       Evaluation.PNG
-    │       Main Menu.PNG
-    │
-    └───src
-            ExpressionEvaluator.cpp
-            ExpressionEvaluator.exe
-            ExpressionEvaluator.h
-            main.cpp
+Auspify-Technologies-C-CPP-Internship/
+├── .gitignore
+├── README.md
+├── docs/
+│   ├── Internship Report.pdf
+│   └── Internship Presentation Slides.pptx
+├── Task_3_Student_Management/
+│   ├── data/
+│   │   └── students.txt
+│   ├── screenshots/
+│   └── src/
+│       ├── main.cpp
+│       ├── Student.h
+│       └── Student.cpp
+├── Task_4_Library_Management/
+│   ├── data/
+│   │   └── books.txt
+│   ├── screenshots/
+│   └── src/
+│       ├── main.cpp
+│       ├── Book.h
+│       ├── Book.cpp
+│       ├── Library.h
+│       └── Library.cpp
+├── Task_5_Banking_Management/
+│   ├── data/
+│   │   └── accounts.txt
+│   ├── screenshots/
+│   └── src/
+│       ├── main.cpp
+│       ├── Account.h
+│       ├── Account.cpp
+│       ├── Bank.h
+│       └── Bank.cpp
+└── Task_6_Expression_Evaluator/
+    ├── screenshots/
+    └── src/
+        ├── main.cpp
+        ├── ExpressionEvaluator.h
+        └── ExpressionEvaluator.cpp
 ```
 
-## Compilation and Execution
+## Prerequisites
 
-These projects can be compiled using GCC/MinGW from the integrated terminal in VS Code.
+To compile the projects on Windows, install:
 
-### Prerequisites
-
-- Visual Studio Code
+- Visual Studio Code or another C++ editor
 - GCC/MinGW C++ compiler
-- A working terminal with `g++` available in the system PATH
+- A terminal where `g++` is available in the system `PATH`
 
 Verify the compiler installation:
 
@@ -231,98 +173,117 @@ Verify the compiler installation:
 g++ --version
 ```
 
+## Compilation and Execution
+
+Run the following commands from the corresponding project's `src` directory.
+
 ### Task 3 — Student Management System
 
-Open a terminal in `Task_3_Student_Management/src`:
+Compile:
 
 ```bash
 g++ main.cpp Student.cpp -o StudentManagement.exe
 ```
 
-Run on Windows:
+Run in Windows CMD:
 
-```bat
+```cmd
 StudentManagement.exe
 ```
 
 ### Task 4 — Library Management System
 
-Open a terminal in `Task_4_Library_Management/src`:
+Compile:
 
 ```bash
 g++ main.cpp Book.cpp Library.cpp -o LibraryManagement.exe
 ```
 
-Run on Windows:
+Run:
 
-```bat
+```cmd
 LibraryManagement.exe
 ```
 
 ### Task 5 — Banking Management System
 
-Open a terminal in `Task_5_Banking_Management/src`:
+Compile:
 
 ```bash
 g++ main.cpp Account.cpp Bank.cpp -o BankingManagement.exe
 ```
 
-Run on Windows:
+Run:
 
-```bat
+```cmd
 BankingManagement.exe
 ```
 
 ### Task 6 — Expression Evaluator
 
-Open a terminal in `Task_6_Expression_Evaluator/src`:
+Compile:
 
 ```bash
 g++ main.cpp ExpressionEvaluator.cpp -o ExpressionEvaluator.exe
 ```
 
-Run on Windows:
+Run:
 
-```bat
+```cmd
 ExpressionEvaluator.exe
 ```
 
-**Note:** The commands assume that the listed source files are sufficient to build each application. If the implementation requires additional source files or libraries, include them in the compilation command. For the first three projects, ensure the application's working directory matches the relative paths used to access its data files.
+**Build note:** These commands assume that the listed source files are sufficient to compile each application and that no additional libraries are required.
+
+**Working-directory note:** The Student Management, Library Management, and Banking Management applications use data files. Ensure the working directory matches the relative file paths expected by the code. If the programs expect a `data` directory relative to the working directory, running them from `src` may require adjusting the paths or running them from the project directory.
 
 ## Data Persistence
 
-The Student Management, Library Management, and Banking Management applications use text files to store application data.
+The first three applications use text files for application data, where implemented:
 
 - Student records: `Task_3_Student_Management/data/students.txt`
 - Book records: `Task_4_Library_Management/data/books.txt`
-- Banking records: `Task_5_Banking_Management/data/accounts.txt`
+- Account records: `Task_5_Banking_Management/data/accounts.txt`
 
-Use fictional sample records when demonstrating these applications. Do not publish real personal information, account details, or sensitive transaction data.
+Use fictional sample records when demonstrating the applications. Do not publish real personal information, account details, or sensitive transaction data.
 
 ## Screenshots
 
-The `screenshots/` directory in each project is reserved for images demonstrating its main features.
+Each project's `screenshots/` directory contains images demonstrating the console interface and selected application operations.
 
-Screenshots will be added to document application execution, important operations, and validation behavior.
+The screenshots provide visual evidence of the applications' behavior and support the accompanying internship report and presentation.
+
+## Internship Documentation
+
+- **Internship Report:** [`docs/Internship Report.pdf`](docs/Internship%20Report.pdf)
+- **Internship Presentation:** [`docs/Internship Presentation Slides.pptx`](docs/Internship%20Presentation%20Slides.pptx)
 
 ## Learning Outcomes
 
-Through these projects, the following programming skills are practiced:
+The projects provided practical opportunities to work with:
 
-- Designing and implementing classes in C++
-- Organizing programs into header and implementation files
-- Performing file-based data persistence
-- Implementing CRUD operations
-- Validating user input and handling errors
-- Managing state and transactions
-- Evaluating arithmetic expressions with operator precedence
-- Compiling and running C++ applications using GCC/MinGW
+- C++ programming fundamentals
+- Classes, objects, and encapsulation
+- Object-oriented programming
+- Modular code using header and implementation files
+- File input/output and data persistence
+- Record management and CRUD operations
+- Input validation and error handling
+- Arithmetic expression processing
+- Compilation, debugging, and testing
+- Technical documentation and project organization
 
 ## Internship Information
 
 - **Organization:** Auspify Technologies
 - **Program:** C/C++ Development Internship
+- **Duration:** 4 weeks
 - **Project Type:** Console-based C++ applications
+- **Tasks Covered:** Tasks 3, 4, 5, and 6
+
+## Repository
+
+**GitHub Repository:** Add the repository URL here after publishing.
 
 ---
 
