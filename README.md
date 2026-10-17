@@ -283,7 +283,7 @@ The projects provided practical opportunities to work with:
 
 ## Repository
 
-**GitHub Repository:** Add the repository URL here after publishing.
+**GitHub Repository:** https://github.com/Muhammad-Ibrahim586/Auspify-Technologies-C-Cpp-Development-Internship.
 
 ---
 
